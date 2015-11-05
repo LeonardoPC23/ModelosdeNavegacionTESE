@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item_android"
+            android:checked="true"
+android:icon="@drawable/ic_android_black_24dp"
+            android:title="Android"
+
+            />
+        <item
+            android:id="@+id/menu_item_assigment"
+            android:title="Contacto"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            />
+        <item
+            android:id="@+id/menu_item_build"
+            android:title="Ajustes"
+            android:icon="@drawable/ic_build_black_24dp"
+            />
+
+
+    </group>
+
+</menu>
